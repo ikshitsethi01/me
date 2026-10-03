@@ -10,5 +10,6 @@ if(gallery){
  window.addEventListener('pointerup',()=>{drag=null;gallery.classList.remove('dragging');pause();});
  gallery.addEventListener('click',event=>{if(moved){event.preventDefault();moved=false;}});
  gallery.addEventListener('keydown',event=>{if(event.key==='ArrowRight'||event.key==='ArrowLeft'){event.preventDefault();gallery.scrollLeft+=event.key==='ArrowRight'?240:-240;pause();}});
+ const randomStart=()=>{if(group.offsetWidth)gallery.scrollLeft=Math.floor(Math.random()*group.offsetWidth);};if(document.readyState==='complete')randomStart();else window.addEventListener('load',randomStart,{once:true});
  const frame=time=>{const dt=last?Math.min(time-last,50):0;last=time;if(!hover&&!drag&&time>pausedUntil&&!gallery.contains(document.activeElement)&&!matchMedia('(prefers-reduced-motion: reduce)').matches){gallery.scrollLeft+=dt*.035;if(gallery.scrollLeft>=group.offsetWidth)gallery.scrollLeft-=group.offsetWidth;}requestAnimationFrame(frame);};requestAnimationFrame(frame);
 }
