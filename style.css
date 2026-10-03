@@ -56,3 +56,5 @@ footer{display:grid;grid-template-columns:1.2fr 2fr .8fr;gap:40px;border-top:1px
 @media(max-width:600px){.prague-letter-crop{aspect-ratio:886/1280;padding:0}.prague-documents .prague-letter-crop img{height:100%;object-fit:contain}.vardhan-logo{width:200px;height:200px;max-width:100%;margin:25px auto 0}}
 
 @media(min-width:601px){.invitation-sheet{background:#fff;padding-bottom:clamp(30px,4.1vw,66px)}.prague-documents>a:nth-child(2)>strong{margin-top:20px;padding:0;background:transparent;color:inherit}}
+
+@media(max-width:600px){.ticker{transform:none}}
