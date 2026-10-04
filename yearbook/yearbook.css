@@ -1,0 +1,1412 @@
+@font-face{font-family:"CAAAAA+NotoSansGurmukhi";src:url("fonts/CAAAAA+NotoSansGurmukhi.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"CAAAAA+CanvaSans";src:url("fonts/CAAAAA+CanvaSans-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"CAAAAA+CanvaSans";src:url("fonts/CAAAAA+CanvaSans-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"DAAAAA+CanvaSans";src:url("fonts/DAAAAA+CanvaSans-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"DAAAAA+LeagueSpartan";src:url("fonts/DAAAAA+LeagueSpartan-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"DAAAAA+NotoSansGurmukhi";src:url("fonts/DAAAAA+NotoSansGurmukhi.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"AAAAAA+LeagueSpartan";src:url("fonts/AAAAAA+LeagueSpartan-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"CAAAAA+NotoSansGurmukhi";src:url("fonts/CAAAAA+NotoSansGurmukhi-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"EAAAAA+LeagueSpartan";src:url("fonts/EAAAAA+LeagueSpartan-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"BAAAAA+CanvaSans";src:url("fonts/BAAAAA+CanvaSans-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"DAAAAA+NotoSansGurmukhi";src:url("fonts/DAAAAA+NotoSansGurmukhi-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"CAAAAA+LeagueSpartan";src:url("fonts/CAAAAA+LeagueSpartan-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"DAAAAA+CanvaSans";src:url("fonts/DAAAAA+CanvaSans-RegularItalic.ttf") format("truetype");font-weight:400;font-style:italic;font-display:block}
+@font-face{font-family:"BAAAAA+CanvaSans";src:url("fonts/BAAAAA+CanvaSans-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"CAAAAA+NotoSansDevanagari";src:url("fonts/CAAAAA+NotoSansDevanagari-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"AAAAAA+CanvaSans";src:url("fonts/AAAAAA+CanvaSans-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"BAAAAA+LeagueSpartan";src:url("fonts/BAAAAA+LeagueSpartan-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"AAAAAA+CanvaSans";src:url("fonts/AAAAAA+CanvaSans-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"CAAAAA+CanvaSans";src:url("fonts/CAAAAA+CanvaSans-RegularItalic.ttf") format("truetype");font-weight:400;font-style:italic;font-display:block}
+@font-face{font-family:"AAAAAA+Poppins-Medium";src:url("fonts/AAAAAA+Poppins-Medium.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"BAAAAA+ImpactLTStd";src:url("fonts/BAAAAA+ImpactLTStd.ttf") format("truetype");font-weight:400;font-style:normal;font-display:block}
+
+
+.xflip {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: fliph;
+}
+.yflip {
+    -moz-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: flipv;
+}
+.xyflip {
+    -moz-transform: scaleX(-1) scaleY(-1);
+    -webkit-transform: scaleX(-1) scaleY(-1);
+    -o-transform: scaleX(-1) scaleY(-1);
+    transform: scaleX(-1) scaleY(-1);
+    filter: fliph + flipv;
+}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft10{font-size:10px;font-family:"AAAAAA+Poppins-Medium";color:#ffffff;}
+	.ft11{font-size:83px;font-family:"BAAAAA+ImpactLTStd";color:#294040;}
+	.ft12{font-size:83px;font-family:"BAAAAA+ImpactLTStd";color:#336b65;}
+	.ft13{font-size:90px;font-family:"BAAAAA+ImpactLTStd";color:#071520;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft24{font-size:34px;font-family:"AAAAAA+LeagueSpartan";color:#000000;}
+	.ft25{font-size:19px;font-family:"AAAAAA+LeagueSpartan";color:#ffffff;}
+	.ft26{font-size:13px;font-family:"AAAAAA+LeagueSpartan";color:#ffffff;}
+	.ft27{font-size:15px;font-family:"AAAAAA+LeagueSpartan";color:#000000;}
+	.ft28{font-size:13px;font-family:"AAAAAA+LeagueSpartan";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft39{font-size:40px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+	.ft310{font-size:14px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+	.ft311{font-size:14px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft312{font-size:19px;font-family:"CAAAAA+LeagueSpartan";color:#ffffff;}
+	.ft313{font-size:13px;font-family:"CAAAAA+LeagueSpartan";color:#ffffff;}
+	.ft314{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft415{font-size:14px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+	.ft416{font-size:14px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft417{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft618{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft719{font-size:17px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+	.ft720{font-size:13px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft721{font-size:13px;font-family:"CAAAAA+NotoSansGurmukhi";color:#000000;}
+	.ft722{font-size:19px;font-family:"DAAAAA+LeagueSpartan";color:#ffffff;}
+	.ft723{font-size:13px;font-family:"DAAAAA+LeagueSpartan";color:#ffffff;}
+	.ft724{font-size:17px;line-height:23px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+	.ft725{font-size:13px;line-height:18px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft826{font-size:13px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+	.ft827{font-size:19px;font-family:"BAAAAA+LeagueSpartan";color:#ffffff;}
+	.ft828{font-size:13px;font-family:"BAAAAA+LeagueSpartan";color:#ffffff;}
+	.ft829{font-size:13px;line-height:18px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft930{font-size:40px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft931{font-size:14px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft932{font-size:25px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft933{font-size:14px;line-height:19px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft934{font-size:25px;line-height:34px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft1435{font-size:14px;font-family:"DAAAAA+NotoSansGurmukhi";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft1636{font-size:25px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft1637{font-size:14px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft1638{font-size:14px;line-height:19px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft1939{font-size:14px;font-family:"CAAAAA+NotoSansGurmukhi";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft2440{font-size:31px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft2741{font-size:27px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft2742{font-size:20px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft2743{font-size:18px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft2744{font-size:18px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft2745{font-size:20px;line-height:27px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft2746{font-size:18px;line-height:24px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft2747{font-size:18px;line-height:24px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft2948{font-size:29px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft2949{font-size:15px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft2950{font-size:15px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft2951{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft3052{font-size:15px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft3053{font-size:15px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft3054{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft3155{font-size:13px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft3156{font-size:13px;line-height:17px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft3257{font-size:26px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft3358{font-size:28px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft3359{font-size:17px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft3360{font-size:17px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft3361{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft3462{font-size:16px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft3463{font-size:16px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft3464{font-size:16px;line-height:21px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft3465{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft3566{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft4167{font-size:13px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft4168{font-size:13px;line-height:17px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft4269{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft4370{font-size:14px;line-height:18px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft4471{font-size:13px;line-height:18px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft4572{font-size:17px;line-height:24px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft4573{font-size:17px;line-height:24px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft4674{font-size:15px;line-height:21px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft4675{font-size:15px;line-height:21px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft4776{font-size:17px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft4777{font-size:16px;font-family:"DAAAAA+CanvaSans";color:#000000;}
+	.ft4778{font-size:17px;line-height:24px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft4779{font-size:16px;line-height:22px;font-family:"DAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft4880{font-size:18px;line-height:25px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft4881{font-size:18px;line-height:25px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft4982{font-size:30px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft4983{font-size:14px;line-height:18px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft5184{font-size:17px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft5185{font-size:40px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft5186{font-size:31px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft5187{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft5288{font-size:31px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft5589{font-size:16px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+	.ft5590{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft5691{font-size:16px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+	.ft5692{font-size:16px;line-height:21px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft6293{font-size:16px;font-family:"CAAAAA+TwemojiMozilla";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft6394{font-size:16px;font-family:"BAAAAA+TwemojiMozilla";color:#000000;}
+	.ft6395{font-size:11px;font-family:"BAAAAA+TwemojiMozilla";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft6796{font-size:15px;font-family:"CAAAAA+NotoSansDevanagari";color:#000000;}
+	.ft6797{font-size:10px;font-family:"DAAAAA+TwemojiMozilla";color:#000000;}
+	.ft6798{font-size:19px;font-family:"EAAAAA+LeagueSpartan";color:#ffffff;}
+	.ft6799{font-size:13px;font-family:"EAAAAA+LeagueSpartan";color:#ffffff;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft74100{font-size:15px;font-family:"CAAAAA+TwemojiMozilla";color:#000000;}
+	.ft74101{font-size:17px;font-family:"CAAAAA+TwemojiMozilla";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft75102{font-size:11px;font-family:"CAAAAA+TwemojiMozilla";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft80103{font-size:17px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+	.ft80104{font-size:17px;line-height:23px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft91105{font-size:15px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+	.ft91106{font-size:15px;font-family:"BAAAAA+TwemojiMozilla";color:#000000;}
+	.ft91107{font-size:15px;line-height:20px;font-family:"AAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft99108{font-size:12px;font-family:"BAAAAA+TwemojiMozilla";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft101109{font-size:13px;font-family:"BAAAAA+TwemojiMozilla";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft106110{font-size:15px;font-family:"DAAAAA+TwemojiMozilla";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft107111{font-size:17px;font-family:"DAAAAA+CanvaSans";color:#000000;}
+	.ft107112{font-size:17px;line-height:23px;font-family:"DAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft118113{font-size:17px;font-family:"DAAAAA+NotoSansGurmukhi";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft120114{font-size:16px;font-family:"DAAAAA+NotoSansGurmukhi";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft121115{font-size:14px;font-family:"DAAAAA+TwemojiMozilla";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft123116{font-size:14px;font-family:"CAAAAA+TwemojiMozilla";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}
+
+
+
+	p {margin: 0; padding: 0;}	.ft125117{font-size:35px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft126118{font-size:16px;font-family:"DAAAAA+CanvaSans";color:#000000;}
+	.ft126119{font-size:16px;font-family:"CAAAAA+CanvaSans";color:#000000;}
+	.ft126120{font-size:16px;line-height:22px;font-family:"BAAAAA+CanvaSans";color:#000000;}
+
+
+
+
+	p {margin: 0; padding: 0;}	.ft127121{font-size:92px;font-family:"BAAAAA+ImpactLTStd";color:#294040;}
+	.ft127122{font-size:92px;font-family:"BAAAAA+ImpactLTStd";color:#336b65;}
+	.ft127123{font-size:101px;font-family:"BAAAAA+ImpactLTStd";color:#336b65;}
+
+
+#page1-div .ft10{font-size:10px;font-family:"AAAAAA+Poppins-Medium", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page1-div .ft11{font-size:83px;font-family:"BAAAAA+ImpactLTStd", "Apple Color Emoji", sans-serif;color:#294040;}
+#page1-div .ft12{font-size:83px;font-family:"BAAAAA+ImpactLTStd", "Apple Color Emoji", sans-serif;color:#336b65;}
+#page1-div .ft13{font-size:90px;font-family:"BAAAAA+ImpactLTStd", "Apple Color Emoji", sans-serif;color:#071520;}
+#page2-div .ft24{font-size:34px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#000000;}
+#page2-div .ft25{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page2-div .ft26{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page2-div .ft27{font-size:15px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#000000;}
+#page2-div .ft28{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#000000;}
+#page3-div .ft39{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page3-div .ft310{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page3-div .ft311{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page3-div .ft314{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page3-div .ft312{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page3-div .ft313{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page4-div .ft417{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page4-div .ft416{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page4-div .ft415{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page4-div .ft412{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page4-div .ft413{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page5-div .ft59{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page5-div .ft511{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page5-div .ft510{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page5-div .ft514{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page5-div .ft512{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page5-div .ft513{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page6-div .ft617{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page6-div .ft618{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page6-div .ft616{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page6-div .ft615{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page6-div .ft612{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page6-div .ft613{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page7-div .ft79{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page7-div .ft724{font-size:17px;line-height:23px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page7-div .ft725{font-size:13px;line-height:18px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page7-div .ft721{font-size:13px;font-family:"CAAAAA+NotoSansGurmukhi", "Apple Color Emoji", sans-serif;color:#000000;}
+#page7-div .ft720{font-size:13px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page7-div .ft722{font-size:19px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page7-div .ft723{font-size:13px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page8-div .ft829{font-size:13px;line-height:18px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page8-div .ft826{font-size:13px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page8-div .ft827{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page8-div .ft828{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page9-div .ft95{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page9-div .ft930{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page9-div .ft916{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page9-div .ft931{font-size:14px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page9-div .ft933{font-size:14px;line-height:19px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page9-div .ft934{font-size:25px;line-height:34px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page9-div .ft96{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page10-div .ft1017{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page10-div .ft1015{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page10-div .ft1016{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page10-div .ft1012{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page10-div .ft1032{font-size:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page10-div .ft1013{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page11-div .ft1117{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page11-div .ft1127{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page11-div .ft1128{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page12-div .ft125{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page12-div .ft1232{font-size:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page12-div .ft1233{font-size:14px;line-height:19px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page12-div .ft126{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page13-div .ft1317{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page13-div .ft1316{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page13-div .ft1315{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page13-div .ft1318{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page13-div .ft1312{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page13-div .ft1332{font-size:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page13-div .ft1313{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page14-div .ft1417{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page14-div .ft1416{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page14-div .ft1415{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page14-div .ft1412{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page14-div .ft1432{font-size:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page14-div .ft1418{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page14-div .ft1435{font-size:14px;font-family:"DAAAAA+NotoSansGurmukhi", "Apple Color Emoji", sans-serif;color:#000000;}
+#page14-div .ft1413{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page15-div .ft1517{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page15-div .ft1516{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page15-div .ft1515{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page15-div .ft1518{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page15-div .ft1512{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page15-div .ft1532{font-size:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page15-div .ft1513{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page16-div .ft1617{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page16-div .ft1627{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page16-div .ft1636{font-size:25px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page16-div .ft1615{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page16-div .ft1638{font-size:14px;line-height:19px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page16-div .ft1637{font-size:14px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page16-div .ft1628{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page17-div .ft1717{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page17-div .ft1727{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page17-div .ft1736{font-size:25px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page17-div .ft1737{font-size:14px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page17-div .ft1715{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page17-div .ft1728{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page18-div .ft1817{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page18-div .ft1827{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page18-div .ft1836{font-size:25px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page18-div .ft1837{font-size:14px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page18-div .ft1815{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page18-div .ft1828{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page19-div .ft1917{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page19-div .ft1916{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page19-div .ft1915{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page19-div .ft1939{font-size:14px;font-family:"CAAAAA+NotoSansGurmukhi", "Apple Color Emoji", sans-serif;color:#000000;}
+#page19-div .ft1922{font-size:19px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page19-div .ft1932{font-size:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page19-div .ft1923{font-size:13px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page20-div .ft2017{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page20-div .ft2015{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page20-div .ft2016{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page20-div .ft2012{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page20-div .ft2032{font-size:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page20-div .ft2013{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page21-div .ft2117{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page21-div .ft2115{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page21-div .ft2116{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page21-div .ft2112{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page21-div .ft2132{font-size:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page21-div .ft2113{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page22-div .ft2217{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page22-div .ft2215{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page22-div .ft2216{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page22-div .ft2212{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page22-div .ft2232{font-size:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page22-div .ft2213{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page23-div .ft2317{font-size:14px;line-height:19px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page23-div .ft2315{font-size:14px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page23-div .ft2316{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page23-div .ft2318{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page23-div .ft2312{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page23-div .ft2313{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page24-div .ft245{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page24-div .ft248{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#000000;}
+#page24-div .ft2430{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page24-div .ft2440{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page24-div .ft246{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page25-div .ft255{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page25-div .ft258{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#000000;}
+#page25-div .ft2530{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page25-div .ft2540{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page25-div .ft256{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page26-div .ft265{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page26-div .ft268{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#000000;}
+#page26-div .ft2630{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page26-div .ft2640{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page26-div .ft266{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page27-div .ft275{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page27-div .ft2730{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page27-div .ft2741{font-size:27px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page27-div .ft2745{font-size:20px;line-height:27px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page27-div .ft2743{font-size:18px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page27-div .ft2744{font-size:18px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page27-div .ft2746{font-size:18px;line-height:24px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page27-div .ft2747{font-size:18px;line-height:24px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page27-div .ft276{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page28-div .ft285{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page28-div .ft2830{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page28-div .ft2841{font-size:27px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page28-div .ft2842{font-size:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page28-div .ft2843{font-size:18px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page28-div .ft2844{font-size:18px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page28-div .ft2846{font-size:18px;line-height:24px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page28-div .ft286{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page29-div .ft295{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page29-div .ft2930{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page29-div .ft2948{font-size:29px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page29-div .ft2951{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page29-div .ft2950{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page29-div .ft2949{font-size:15px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page29-div .ft296{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page30-div .ft305{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page30-div .ft3054{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page30-div .ft3052{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page30-div .ft3053{font-size:15px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page30-div .ft306{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page31-div .ft315{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page31-div .ft3130{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page31-div .ft3148{font-size:29px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page31-div .ft3156{font-size:13px;line-height:17px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page31-div .ft316{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page32-div .ft325{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page32-div .ft3230{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page32-div .ft3241{font-size:27px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page32-div .ft3257{font-size:26px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page32-div .ft3251{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page32-div .ft3243{font-size:18px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page32-div .ft326{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page33-div .ft335{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page33-div .ft3330{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page33-div .ft3358{font-size:28px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page33-div .ft3359{font-size:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page33-div .ft3360{font-size:17px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page33-div .ft3361{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page33-div .ft336{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page34-div .ft345{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page34-div .ft3430{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page34-div .ft3440{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page34-div .ft3462{font-size:16px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page34-div .ft3463{font-size:16px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page34-div .ft3464{font-size:16px;line-height:21px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page34-div .ft3465{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page34-div .ft346{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page35-div .ft355{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page35-div .ft3530{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page35-div .ft3540{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page35-div .ft3566{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page35-div .ft3551{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page35-div .ft356{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page36-div .ft365{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page36-div .ft3630{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page36-div .ft3648{font-size:29px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page36-div .ft3665{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page36-div .ft3664{font-size:16px;line-height:21px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page36-div .ft366{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page37-div .ft375{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page37-div .ft3730{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page37-div .ft3740{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page37-div .ft3766{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page37-div .ft3751{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page37-div .ft376{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page38-div .ft385{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page38-div .ft3830{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page38-div .ft3840{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page38-div .ft3866{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page38-div .ft3849{font-size:15px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page38-div .ft3850{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page38-div .ft3851{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page38-div .ft386{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page39-div .ft395{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page39-div .ft3930{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page39-div .ft3940{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page39-div .ft3966{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page39-div .ft3949{font-size:15px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page39-div .ft3951{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page39-div .ft396{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page40-div .ft405{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page40-div .ft4030{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page40-div .ft4040{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page40-div .ft4066{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page40-div .ft4051{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page40-div .ft406{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page41-div .ft415{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page41-div .ft4130{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page41-div .ft4140{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page41-div .ft4168{font-size:13px;line-height:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page41-div .ft4156{font-size:13px;line-height:17px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page41-div .ft416{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page42-div .ft425{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page42-div .ft4230{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page42-div .ft4240{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page42-div .ft4269{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page42-div .ft4261{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page42-div .ft426{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page43-div .ft435{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page43-div .ft4330{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page43-div .ft4357{font-size:26px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page43-div .ft4370{font-size:14px;line-height:18px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page43-div .ft4316{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page43-div .ft4356{font-size:13px;line-height:17px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page43-div .ft436{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page44-div .ft445{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page44-div .ft4430{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page44-div .ft4458{font-size:28px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page44-div .ft4468{font-size:13px;line-height:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page44-div .ft4456{font-size:13px;line-height:17px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page44-div .ft4467{font-size:13px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page44-div .ft4471{font-size:13px;line-height:18px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page44-div .ft446{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page45-div .ft455{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page45-div .ft4530{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page45-div .ft4558{font-size:28px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page45-div .ft4572{font-size:17px;line-height:24px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page45-div .ft4559{font-size:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page45-div .ft4573{font-size:17px;line-height:24px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page45-div .ft456{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page46-div .ft465{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page46-div .ft4630{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page46-div .ft4658{font-size:28px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page46-div .ft4674{font-size:15px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page46-div .ft4675{font-size:15px;line-height:21px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page46-div .ft466{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page47-div .ft475{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page47-div .ft4730{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page47-div .ft4758{font-size:28px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page47-div .ft4772{font-size:17px;line-height:24px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page47-div .ft4778{font-size:17px;line-height:24px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page47-div .ft4779{font-size:16px;line-height:22px;font-family:"DAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page47-div .ft476{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page48-div .ft485{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page48-div .ft4830{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page48-div .ft4840{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page48-div .ft4880{font-size:18px;line-height:25px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page48-div .ft4881{font-size:18px;line-height:25px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page48-div .ft486{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page49-div .ft495{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page49-div .ft4930{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page49-div .ft4982{font-size:30px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page49-div .ft4970{font-size:14px;line-height:18px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page49-div .ft4983{font-size:14px;line-height:18px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page49-div .ft496{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page50-div .ft505{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page50-div .ft5030{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page50-div .ft5040{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page50-div .ft5062{font-size:16px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page50-div .ft5063{font-size:16px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page50-div .ft5064{font-size:16px;line-height:21px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page50-div .ft506{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page51-div .ft515{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page51-div .ft5187{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page51-div .ft5185{font-size:40px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page51-div .ft5186{font-size:31px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page51-div .ft516{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page52-div .ft529{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page52-div .ft5287{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page52-div .ft5212{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page52-div .ft5288{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page52-div .ft5213{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page53-div .ft539{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page53-div .ft5387{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page53-div .ft5312{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page53-div .ft5388{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page53-div .ft5313{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page54-div .ft549{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page54-div .ft5487{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page54-div .ft5412{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page54-div .ft5488{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page54-div .ft5413{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page55-div .ft559{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page55-div .ft5590{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page55-div .ft5512{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page55-div .ft5588{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page55-div .ft5513{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page56-div .ft5692{font-size:16px;line-height:21px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page56-div .ft5627{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page56-div .ft5628{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page57-div .ft579{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page57-div .ft5787{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page57-div .ft5712{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page57-div .ft5788{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page57-div .ft5713{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page58-div .ft589{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page58-div .ft5887{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page58-div .ft5812{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page58-div .ft5888{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page58-div .ft5813{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page59-div .ft599{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page59-div .ft5987{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page59-div .ft5912{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page59-div .ft5988{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page59-div .ft5913{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page60-div .ft609{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page60-div .ft6087{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page60-div .ft6012{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page60-div .ft6088{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page60-div .ft6013{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page61-div .ft619{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page61-div .ft6154{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page61-div .ft6112{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page61-div .ft6188{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page61-div .ft6113{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page62-div .ft629{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page62-div .ft6290{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page62-div .ft6289{font-size:16px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page62-div .ft6293{font-size:16px;font-family:"CAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page62-div .ft6222{font-size:19px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page62-div .ft6288{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page62-div .ft6223{font-size:13px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page63-div .ft6392{font-size:16px;line-height:21px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page63-div .ft6394{font-size:16px;font-family:"BAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page63-div .ft6391{font-size:16px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page63-div .ft6395{font-size:11px;font-family:"BAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page63-div .ft6312{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page63-div .ft6313{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page64-div .ft6492{font-size:16px;line-height:21px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page64-div .ft6427{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page64-div .ft6428{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page65-div .ft659{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page65-div .ft6590{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page65-div .ft6512{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page65-div .ft6588{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page65-div .ft6513{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page66-div .ft669{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page66-div .ft6687{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page66-div .ft6612{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page66-div .ft6688{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page66-div .ft6613{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page67-div .ft679{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page67-div .ft6754{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page67-div .ft6796{font-size:15px;font-family:"CAAAAA+NotoSansDevanagari", "Apple Color Emoji", sans-serif;color:#000000;}
+#page67-div .ft6752{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page67-div .ft6797{font-size:10px;font-family:"DAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page67-div .ft6798{font-size:19px;font-family:"EAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page67-div .ft6788{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page67-div .ft6799{font-size:13px;font-family:"EAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page68-div .ft689{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page68-div .ft6890{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page68-div .ft6812{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page68-div .ft6888{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page68-div .ft6813{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page69-div .ft6992{font-size:16px;line-height:21px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page69-div .ft6991{font-size:16px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page69-div .ft6927{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page69-div .ft6928{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page70-div .ft709{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page70-div .ft7087{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page70-div .ft7012{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page70-div .ft7088{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page70-div .ft7013{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page71-div .ft719{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page71-div .ft7187{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page71-div .ft7112{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page71-div .ft7188{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page71-div .ft7113{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page72-div .ft729{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page72-div .ft7287{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page72-div .ft7212{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page72-div .ft7288{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page72-div .ft7213{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page73-div .ft739{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page73-div .ft7387{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page73-div .ft7384{font-size:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page73-div .ft7312{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page73-div .ft7388{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page73-div .ft7313{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page74-div .ft749{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page74-div .ft7484{font-size:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page74-div .ft7487{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page74-div .ft74100{font-size:15px;font-family:"CAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page74-div .ft74101{font-size:17px;font-family:"CAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page74-div .ft7422{font-size:19px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page74-div .ft7488{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page74-div .ft7423{font-size:13px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page75-div .ft759{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page75-div .ft7554{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page75-div .ft7552{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page75-div .ft75102{font-size:11px;font-family:"CAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page75-div .ft7522{font-size:19px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page75-div .ft7588{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page75-div .ft7523{font-size:13px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page76-div .ft769{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page76-div .ft7687{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page76-div .ft7619{font-size:17px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page76-div .ft7684{font-size:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page76-div .ft7612{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page76-div .ft7688{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page76-div .ft7613{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page77-div .ft779{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page77-div .ft7787{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page77-div .ft7712{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page77-div .ft7788{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page77-div .ft7713{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page78-div .ft789{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page78-div .ft7887{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page78-div .ft7812{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page78-div .ft7888{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page78-div .ft7813{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page79-div .ft799{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page79-div .ft7984{font-size:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page79-div .ft7987{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page79-div .ft7912{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page79-div .ft7988{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page79-div .ft7913{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page80-div .ft80104{font-size:17px;line-height:23px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page80-div .ft8027{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page80-div .ft8028{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page81-div .ft819{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page81-div .ft8187{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page81-div .ft8112{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page81-div .ft8188{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page81-div .ft8113{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page82-div .ft829{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page82-div .ft8289{font-size:16px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page82-div .ft8290{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page82-div .ft8212{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page82-div .ft8288{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page82-div .ft8213{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page83-div .ft839{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page83-div .ft8390{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page83-div .ft8312{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page83-div .ft8388{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page83-div .ft8313{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page84-div .ft849{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page84-div .ft8452{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page84-div .ft8454{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page84-div .ft8412{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page84-div .ft8488{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page84-div .ft8413{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page85-div .ft859{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page85-div .ft8587{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page85-div .ft8512{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page85-div .ft8588{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page85-div .ft8513{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page86-div .ft869{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page86-div .ft8690{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page86-div .ft8612{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page86-div .ft8688{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page86-div .ft8613{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page87-div .ft8792{font-size:16px;line-height:21px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page87-div .ft8727{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page87-div .ft8728{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page88-div .ft889{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page88-div .ft8852{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page88-div .ft88100{font-size:15px;font-family:"CAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page88-div .ft8854{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page88-div .ft8822{font-size:19px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page88-div .ft8888{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page88-div .ft8823{font-size:13px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page89-div .ft899{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page89-div .ft8987{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page89-div .ft8912{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page89-div .ft8988{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page89-div .ft8913{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page90-div .ft909{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page90-div .ft9054{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page90-div .ft9052{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page90-div .ft9012{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page90-div .ft9088{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page90-div .ft9013{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page91-div .ft91107{font-size:15px;line-height:20px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page91-div .ft91106{font-size:15px;font-family:"BAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page91-div .ft91105{font-size:15px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page91-div .ft9112{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page91-div .ft9113{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page92-div .ft929{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page92-div .ft9287{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page92-div .ft9212{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page92-div .ft9288{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page92-div .ft9213{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page93-div .ft939{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page93-div .ft9387{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page93-div .ft9312{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page93-div .ft9388{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page93-div .ft9313{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page94-div .ft949{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page94-div .ft9487{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page94-div .ft9484{font-size:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page94-div .ft9412{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page94-div .ft9488{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page94-div .ft9413{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page95-div .ft959{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page95-div .ft9589{font-size:16px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page95-div .ft9590{font-size:16px;line-height:21px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page95-div .ft9512{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page95-div .ft9588{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page95-div .ft9513{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page96-div .ft9692{font-size:16px;line-height:21px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page96-div .ft9627{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page96-div .ft9628{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page97-div .ft979{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page97-div .ft9787{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page97-div .ft9712{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page97-div .ft9788{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page97-div .ft9713{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page98-div .ft989{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page98-div .ft9887{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page98-div .ft9852{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page98-div .ft9812{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page98-div .ft9888{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page98-div .ft9813{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page99-div .ft999{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page99-div .ft99106{font-size:15px;font-family:"BAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page99-div .ft9949{font-size:15px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page99-div .ft99108{font-size:12px;font-family:"BAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page99-div .ft9951{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page99-div .ft9922{font-size:19px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page99-div .ft9988{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page99-div .ft9923{font-size:13px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page100-div .ft1009{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page100-div .ft10052{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page100-div .ft10054{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page100-div .ft10012{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page100-div .ft10088{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page100-div .ft10013{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page101-div .ft101107{font-size:15px;line-height:20px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page101-div .ft101109{font-size:13px;font-family:"BAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page101-div .ft10112{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page101-div .ft10113{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page102-div .ft1029{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page102-div .ft10287{font-size:17px;line-height:23px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page102-div .ft102101{font-size:17px;font-family:"CAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page102-div .ft10284{font-size:17px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page102-div .ft10222{font-size:19px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page102-div .ft10288{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page102-div .ft10223{font-size:13px;font-family:"DAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page103-div .ft1039{font-size:40px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page103-div .ft10354{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page103-div .ft10352{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page103-div .ft10312{font-size:19px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page103-div .ft10388{font-size:31px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page103-div .ft10313{font-size:13px;font-family:"CAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page104-div .ft104107{font-size:15px;line-height:20px;font-family:"AAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page104-div .ft10427{font-size:19px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page104-div .ft10428{font-size:13px;font-family:"BAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page105-div .ft1055{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page105-div .ft10530{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page105-div .ft10551{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page105-div .ft10540{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page105-div .ft1056{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page106-div .ft1065{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page106-div .ft10630{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page106-div .ft10664{font-size:16px;line-height:21px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page106-div .ft106110{font-size:15px;font-family:"DAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page106-div .ft10663{font-size:16px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page106-div .ft10640{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page106-div .ft1066{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page107-div .ft1075{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page107-div .ft10730{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page107-div .ft10761{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page107-div .ft107111{font-size:17px;font-family:"DAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page107-div .ft107112{font-size:17px;line-height:23px;font-family:"DAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page107-div .ft10740{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page107-div .ft1076{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page108-div .ft1085{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page108-div .ft10830{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page108-div .ft10851{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page108-div .ft10849{font-size:15px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page108-div .ft10840{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page108-div .ft1086{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page109-div .ft1095{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page109-div .ft10930{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page109-div .ft10961{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page109-div .ft10940{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page109-div .ft1096{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page110-div .ft1105{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page110-div .ft11030{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page110-div .ft11061{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page110-div .ft11040{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page110-div .ft1106{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page111-div .ft1115{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page111-div .ft11130{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page111-div .ft11161{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page111-div .ft11140{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page111-div .ft1116{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page112-div .ft1125{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page112-div .ft11230{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page112-div .ft11261{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page112-div .ft11240{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page112-div .ft1126{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page113-div .ft1135{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page113-div .ft11330{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page113-div .ft11351{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page113-div .ft11340{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page113-div .ft1136{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page114-div .ft1145{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page114-div .ft11430{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page114-div .ft11483{font-size:14px;line-height:18px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page114-div .ft11440{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page114-div .ft1146{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page115-div .ft1155{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page115-div .ft11530{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page115-div .ft11551{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page115-div .ft11549{font-size:15px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page115-div .ft11540{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page115-div .ft1156{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page116-div .ft1165{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page116-div .ft11654{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page116-div .ft11652{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page116-div .ft1166{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page117-div .ft1175{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page117-div .ft11730{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page117-div .ft11761{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page117-div .ft11740{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page117-div .ft1176{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page118-div .ft1185{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page118-div .ft11830{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page118-div .ft11861{font-size:17px;line-height:23px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page118-div .ft118113{font-size:17px;font-family:"DAAAAA+NotoSansGurmukhi", "Apple Color Emoji", sans-serif;color:#000000;}
+#page118-div .ft11860{font-size:17px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page118-div .ft11840{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page118-div .ft1186{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page119-div .ft1195{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page119-div .ft11930{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page119-div .ft11964{font-size:16px;line-height:21px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page119-div .ft11963{font-size:16px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page119-div .ft11940{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page119-div .ft1196{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page120-div .ft1205{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page120-div .ft12030{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page120-div .ft12064{font-size:16px;line-height:21px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page120-div .ft120114{font-size:16px;font-family:"DAAAAA+NotoSansGurmukhi", "Apple Color Emoji", sans-serif;color:#000000;}
+#page120-div .ft12063{font-size:16px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page120-div .ft12040{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page120-div .ft1206{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page121-div .ft1215{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page121-div .ft12130{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page121-div .ft12183{font-size:14px;line-height:18px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page121-div .ft12131{font-size:14px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page121-div .ft121115{font-size:14px;font-family:"DAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page121-div .ft12140{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page121-div .ft1216{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page122-div .ft1225{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page122-div .ft12230{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page122-div .ft12251{font-size:15px;line-height:20px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page122-div .ft12249{font-size:15px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page122-div .ft12240{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page122-div .ft1226{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page123-div .ft1235{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page123-div .ft12352{font-size:15px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page123-div .ft12354{font-size:15px;line-height:20px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page123-div .ft123100{font-size:15px;font-family:"CAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page123-div .ft123116{font-size:14px;font-family:"CAAAAA+TwemojiMozilla", "Apple Color Emoji", sans-serif;color:#000000;}
+#page123-div .ft1236{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page124-div .ft1245{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page124-div .ft12430{font-size:40px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page124-div .ft12464{font-size:16px;line-height:21px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page124-div .ft12440{font-size:31px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page124-div .ft1246{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page125-div .ft1255{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page125-div .ft1256{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page125-div .ft125117{font-size:35px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page125-div .ft12518{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page125-div .ft12533{font-size:14px;line-height:19px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page125-div .ft12516{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page125-div .ft12531{font-size:14px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page126-div .ft1265{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page126-div .ft1266{font-size:13px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page126-div .ft12614{font-size:14px;line-height:19px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page126-div .ft12637{font-size:14px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page126-div .ft12611{font-size:14px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page126-div .ft126120{font-size:16px;line-height:22px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page126-div .ft126118{font-size:16px;font-family:"DAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page126-div .ft12689{font-size:16px;font-family:"BAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page126-div .ft126119{font-size:16px;font-family:"CAAAAA+CanvaSans", "Apple Color Emoji", sans-serif;color:#000000;}
+#page127-div .ft1275{font-size:19px;font-family:"AAAAAA+LeagueSpartan", "Apple Color Emoji", sans-serif;color:#ffffff;}
+#page127-div .ft127121{font-size:92px;font-family:"BAAAAA+ImpactLTStd", "Apple Color Emoji", sans-serif;color:#294040;}
+#page127-div .ft127122{font-size:92px;font-family:"BAAAAA+ImpactLTStd", "Apple Color Emoji", sans-serif;color:#336b65;}
+#page127-div .ft127123{font-size:101px;font-family:"BAAAAA+ImpactLTStd", "Apple Color Emoji", sans-serif;color:#336b65;}
+:root{--ink:#071520;--green:#336b65;--paper:#fff;--surface:#111310;--page-scale:1}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:105px}body{margin:0;background:var(--surface);color:var(--ink);font-family:Arial,sans-serif}.skip{position:absolute;left:15px;top:-100px;z-index:10}.skip:focus{top:10px;background:white;padding:10px}.reader-header{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:22px;padding:16px clamp(18px,4vw,65px);background:#111310f5;color:#fff;backdrop-filter:blur(16px);box-shadow:0 4px 20px #07152018}.reader-kicker{font-size:10px;letter-spacing:.19em;color:#7bc6ba}.reader-header h1{margin:3px 0 0;font-size:22px;letter-spacing:-.03em}.reader-header button,.reader-header select{font:inherit;background:transparent;border:1px solid #ffffff35;color:inherit;border-radius:5px;padding:9px 12px;cursor:pointer}.reader-header select{display:block;max-width:245px;margin-top:5px;font-size:13px}.reader-header select option{color:var(--ink);background:white}.section-picker{font-size:10px;color:#bacbc7}.reader-controls{display:flex;gap:6px;align-items:center}.reader-controls output{font-size:12px;min-width:42px;text-align:center}.reader-controls button{min-width:34px}#contents{position:fixed;top:90px;left:clamp(18px,4vw,65px);background:#fff;box-shadow:0 12px 45px #07152030;border:1px solid #d9e3df;z-index:8;width:280px;padding:14px;max-height:75vh;overflow:auto}#contents a{display:flex;justify-content:space-between;text-decoration:none;color:var(--ink);padding:10px 8px;font-size:13px;border-bottom:1px solid #e9efed}#contents a:hover{background:#e8efed}#contents span{color:var(--green)}#book{padding:30px 20px;overflow-x:auto}.page-shell{position:relative;margin:0 auto 24px;width:calc(595px * var(--page-scale));height:calc(842px * var(--page-scale));scroll-margin-top:105px;box-shadow:0 12px 40px #07152012;background:white}.book-page{transform:scale(var(--page-scale));transform-origin:top left;overflow:hidden;background:white}.book-page>img{position:absolute;left:0;top:0;width:595px;height:842px;pointer-events:none}.book-page p{margin:0;padding:0}.book-page a{color:inherit}.book-page b{font-weight:700}.reader-footer{padding:25px 20px 45px;text-align:center;font-size:13px;color:#506961}.reader-footer p{margin:5px}.reader-footer a{display:inline-block;color:#336b65;margin-top:16px}button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid #60b6a9;outline-offset:4px}@media(max-width:700px){.reader-header{flex-wrap:wrap;gap:12px;padding:12px 16px}.reader-header h1{font-size:18px}.section-picker{display:none}.reader-controls{margin-left:auto}.reader-controls button{padding:7px 9px}#book{padding:18px 12px}.page-shell{margin-bottom:16px}#contents{top:95px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}@media print{.reader-header,#contents,.reader-footer,.skip{display:none!important}body,#book{background:white;padding:0}.page-shell{--page-scale:1;margin:0;box-shadow:none;break-after:page}.book-page{transform:none}@page{size:595px 842px;margin:0}}
+
+html{scroll-padding-top:0}.page-shell{scroll-margin-top:calc(var(--header-height,90px) + 16px)}#book{padding:16px 48px}.reader-footer{color:#b9c6c0}.reader-footer a{color:#a6d1b8}.book-page u,.book-page a{text-decoration-thickness:1px;text-underline-offset:2px;text-decoration-skip-ink:auto}#contents.section-dots{display:flex;flex-direction:column;gap:10px;position:fixed;left:auto;right:16px;top:50%;transform:translateY(-50%);width:auto;padding:10px;max-height:75vh;overflow:visible;background:transparent;border:0;box-shadow:none}#contents.section-dots a{position:relative;padding:0;width:9px;height:9px;border:1px solid #91b6a0;border-radius:50%;background:#1e2822;display:block}#contents.section-dots a.active{background:#a6d1b8;box-shadow:0 0 0 3px #a6d1b822}#contents.section-dots a:hover{background:#a6d1b8}#contents .dot-label{position:absolute;right:20px;top:-7px;white-space:nowrap;color:#fff;background:#16211b;padding:5px 9px;border-radius:4px;font-size:12px;opacity:0;pointer-events:none}#contents a:hover .dot-label,#contents a:focus-visible .dot-label{opacity:1}@media(max-width:700px){#book{padding:16px}#contents.section-dots{right:4px;gap:8px;padding:3px}#contents.section-dots a{width:6px;height:6px}.reader-header h1{font-size:16px}.reader-header{gap:8px;padding:10px 12px}.reader-controls{gap:3px}.reader-controls output{font-size:10px}.reader-kicker{font-size:8px}}
