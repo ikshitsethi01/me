@@ -249,3 +249,7 @@ main>section.prague-feature{padding:48px 7%}.prague-letter-crop{width:100%;aspec
 
 /* Keep the writing heading within mobile side padding. */
 @media(max-width:700px){#writing>h2{white-space:normal}#writing>h2>span{display:block;white-space:nowrap}}
+
+/* Navigation follows the current portfolio sections. */
+header>nav[aria-label="Main"]{gap:clamp(12px,1.5vw,22px);font-size:13px;min-width:0}header>nav[aria-label="Main"] a{white-space:nowrap}
+@media(max-width:1100px){header .brand span{display:none}header>nav[aria-label="Main"]{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;max-width:calc(100% - 65px);padding:12px 4px;scrollbar-width:thin;scrollbar-color:var(--line) transparent}}
