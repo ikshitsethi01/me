@@ -225,3 +225,11 @@ main>section.prague-feature{padding:48px 7%}.prague-letter-crop{width:100%;aspec
 .olympiad-merit-text{margin-top:18px}
 #olympiad-feature .award-visuals{align-self:center}
 @media(max-width:900px){.iit-letter-grid{gap:6px!important}}
+
+/* Match the adjoining experience cards and restore carousel spacing. */
+.internship-card.project.blue{background:#1e231a;color:var(--fg);border:1px solid var(--line)}
+.internship-card.project.blue a:hover{color:var(--lime)}
+.iit-gallery-group{gap:18px;padding-right:18px}
+.iit-gallery,.iit-letter-grid .iit-document{border-color:var(--line)}
+.iit-gallery-toolbar button{border-color:var(--line);color:var(--fg)}
+.iit-gallery-toolbar button:hover{background:#ffffff12}
