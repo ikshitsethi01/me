@@ -214,3 +214,14 @@ main>section.prague-feature{padding:48px 7%}.prague-letter-crop{width:100%;aspec
 .iit-letter-grid .iit-document{width:100%;min-width:0;margin:0;padding:0}
 .iit-letter-grid .iit-document img{display:block;width:100%;height:auto!important;aspect-ratio:0.707;object-fit:contain!important;margin:0;padding:0!important}
 @media(max-width:900px){#allen-award .award-feature-metrics strong,#olympiad-feature .award-feature-metrics strong,#olympiad-feature .award-visuals .award-feature-metrics strong{font-size:26px!important}.iit-letter-grid{display:flex;overflow-x:auto;gap:0!important}.iit-letter-grid .iit-document{flex:0 0 85%;width:85%}}
+
+/* Final document spacing and original internship palette. */
+.internship-card.project.blue{background:#aab8ff;color:#111a42}
+.iit-gallery-group{gap:6px;padding-right:6px}
+.iit-letter-grid{gap:6px!important;border:0}
+.iit-letter-grid .iit-document{border:1px solid #111a4226}
+.iit-gallery{border:1px solid #111a4226}
+.iit-gallery .iit-document{border-right:0}
+.olympiad-merit-text{margin-top:18px}
+#olympiad-feature .award-visuals{align-self:center}
+@media(max-width:900px){.iit-letter-grid{gap:6px!important}}
