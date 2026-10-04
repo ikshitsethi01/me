@@ -169,3 +169,10 @@ main>section.award-feature{grid-template-columns:repeat(2,minmax(0,1fr));align-i
 @media(max-width:900px){.award-feature>h2{font-size:clamp(16px,5.5vw,44px)}.award-feature .award-copy p{font-size:15px}.award-supporting{grid-template-columns:1fr}.award-supporting .allen-result-image img{height:auto}.result-blue .result-portrait-colour{height:100%}.iit-letter-grid{grid-template-columns:1fr;gap:24px}.iit-letter-grid .iit-document img{height:390px}.olympiad-photo-single .award-main-photo img{height:300px}}
 
 .award-supporting .result-blue .result-inverted{height:auto;max-height:none;background:transparent;object-fit:fill}.award-supporting .result-blue .result-portrait-colour{height:100%;max-height:none;background:transparent;object-fit:fill}
+
+/* Photographs fill their frames without vertical side gutters. */
+.award-main-photo img,.olympiad-photo-single .award-main-photo img,.prague-photo img,.hero-portrait img,.youtube-visual img{object-fit:cover!important;border:0!important;padding:0!important;background:transparent!important}
+.award-main-photo,.prague-photo,.hero-portrait,.youtube-visual{border:0!important;padding:0!important;overflow:hidden}
+.gallery-image{border:0!important;padding:0!important;background:transparent!important}
+.gallery-image img{border:0!important;padding:0!important;object-fit:cover!important;background:transparent!important}
+.iit-document img{border:0!important;padding:0!important;background:transparent!important}
