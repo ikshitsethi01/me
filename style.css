@@ -176,3 +176,24 @@ main>section.award-feature{grid-template-columns:repeat(2,minmax(0,1fr));align-i
 .gallery-image{border:0!important;padding:0!important;background:transparent!important}
 .gallery-image img{border:0!important;padding:0!important;object-fit:cover!important;background:transparent!important}
 .iit-document img{border:0!important;padding:0!important;background:transparent!important}
+
+/* Square award portraits and joined, readable internship documents. */
+#allen-award .award-main-photo img,#olympiad-feature .award-main-photo img{width:100%;height:auto!important;aspect-ratio:1!important;object-fit:cover!important;object-position:center}
+#allen-award .award-supporting:empty{display:none}
+#olympiad-feature .award-visuals .award-feature-metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:22px 0}
+#olympiad-feature .award-visuals .award-feature-metrics strong{font-size:clamp(24px,2.5vw,34px)}
+#olympiad-feature .award-copy .olympiad-merit-list li{grid-template-columns:minmax(110px,.8fr) minmax(0,1.2fr);font-size:14px;padding:12px 0}
+.internship-card.project.blue{background:#b7bbc2;color:#20252c}
+.iit-gallery{border:1px solid #20252c44}
+.iit-gallery-group{gap:0;padding-right:0}
+.iit-document{width:clamp(380px,47vw,650px)}
+.iit-gallery .iit-document img{height:380px;width:100%;object-fit:contain;padding:0;background:transparent}
+.iit-gallery .iit-document{border-right:1px solid #20252c44}
+.iit-document span{padding:10px 14px;margin:0}
+.iit-letter-grid{gap:0;border:1px solid #20252c44;grid-template-columns:repeat(3,minmax(0,1fr))}
+.iit-letter-grid .iit-document{border-right:1px solid #20252c44}
+.iit-letter-grid .iit-document:last-child{border-right:0}
+.iit-letter-grid .iit-document img{height:auto;max-height:none;aspect-ratio:0.707;object-fit:contain}
+@media(max-width:900px){.iit-document{width:350px}.iit-gallery .iit-document img{height:260px}.iit-letter-grid{display:flex;overflow-x:auto;gap:0}.iit-letter-grid .iit-document{flex:0 0 85%;width:85%}.iit-letter-grid .iit-document img{height:auto;aspect-ratio:0.707}#olympiad-feature .award-copy .olympiad-merit-list li{font-size:13px}#allen-award .award-main-photo img,#olympiad-feature .award-main-photo img{height:auto!important;aspect-ratio:1!important}}
+
+.iit-gallery .iit-document{width:540px}.iit-gallery .iit-document:has(img[src="iit-gallery-09.jpg"]){width:400px}@media(max-width:900px){.iit-gallery .iit-document{width:350px}.iit-gallery .iit-document img{height:247px}.iit-gallery .iit-document:has(img[src="iit-gallery-09.jpg"]){width:260px}}
