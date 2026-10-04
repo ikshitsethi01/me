@@ -97,3 +97,18 @@ main>section.award-feature{grid-template-columns:repeat(2,minmax(0,1fr));align-i
 @media(max-width:800px){.award-feature>h2{font-size:clamp(14px,5vw,40px);letter-spacing:-.04em}}
 .youtube-copy h2{white-space:nowrap;font-size:clamp(30px,4.4vw,64px)}.youtube-visual img{object-position:center top;filter:brightness(.85)}.internship-intro{font-size:clamp(15px,1.8vw,22px)!important;line-height:1.65!important}
 @media(max-width:700px){.youtube-copy h2{font-size:clamp(28px,8vw,48px)}}
+
+.footer-banner{background:var(--bg);isolation:isolate}.footer-banner img{mix-blend-mode:screen}
+
+/* Consistent document sizing without clipping portrait letters or landscape certificates. */
+.iit-document{width:clamp(250px,34vw,420px)}
+.iit-document img{height:300px;object-fit:contain;padding:12px;background:#fff}
+.olympiad-evidence{align-items:start}
+.olympiad-evidence figure{display:flex;flex-direction:column;align-items:center}
+.olympiad-evidence img{width:auto;max-width:100%;height:480px;object-fit:contain;object-position:center top}
+.olympiad-evidence figcaption{align-self:flex-start}
+.award-supporting figure{min-width:0}
+.award-supporting figure img{width:100%;max-width:100%;height:250px;object-fit:contain;background:#fff}
+.award-supporting figure:first-child img{object-fit:contain}
+@media(max-width:800px){.iit-document{width:280px}.iit-document img{height:250px}.olympiad-evidence img{height:auto;width:100%;max-width:340px;max-height:none}.award-supporting figure img{height:200px}}
+@media(max-width:420px){.award-supporting{grid-template-columns:1fr}.award-supporting figure img{height:auto;max-height:360px;object-fit:contain}.iit-document img{height:235px}}
