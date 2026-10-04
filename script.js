@@ -31,5 +31,5 @@ if(gallery){
  window.addEventListener('pointerup',()=>{if(drag){drag=null;rail.classList.remove('dragging');hold();}});
  rail.addEventListener('click',e=>{if(moved){e.preventDefault();moved=false;}});
  const start=()=>rail.scrollLeft=Math.max(1,Math.floor(Math.random()*group.offsetWidth));if(document.readyState==='complete')start();else window.addEventListener('load',start,{once:true});
- const frame=t=>{const dt=last?Math.min(t-last,50):0;last=t;if(!paused&&!hover&&!drag&&t>until&&!rail.matches(':focus-within')&&!document.hidden&&!matchMedia('(prefers-reduced-motion: reduce)').matches){fraction+=dt*.028;if(fraction>=1){const step=Math.floor(fraction);fraction-=step;rail.scrollLeft+=step;normalize();}}requestAnimationFrame(frame);};requestAnimationFrame(frame);
+ const frame=t=>{const dt=last?Math.min(t-last,50):0;last=t;if(!paused&&!hover&&!drag&&t>until&&!rail.matches(':focus-within')&&!document.hidden&&!matchMedia('(prefers-reduced-motion: reduce)').matches){fraction+=dt*.075;if(fraction>=1){const step=Math.floor(fraction);fraction-=step;rail.scrollLeft+=step;normalize();}}requestAnimationFrame(frame);};requestAnimationFrame(frame);
 })();

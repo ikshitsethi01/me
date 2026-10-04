@@ -147,3 +147,25 @@ main>section.award-feature{grid-template-columns:repeat(2,minmax(0,1fr));align-i
 @media(min-width:901px){.olympiad-photo-pair{margin-top:0}.olympiad-photo-pair figure img,.olympiad-photo-pair figure:first-child img{height:440px;width:100%;object-fit:contain;background:#191c17}.olympiad-photo-pair .award-main-photo img{aspect-ratio:auto}}@media(max-width:900px){.olympiad-photo-pair figure img,.olympiad-photo-pair figure:first-child img{height:280px;object-fit:contain}}
 
 .iit-document{width:clamp(280px,34vw,420px)}.iit-document img{height:300px;width:100%;object-fit:contain;padding:12px;background:#fff}.iit-document span{min-height:36px}@media(max-width:900px){.iit-document{width:280px}.iit-document img{height:235px}}
+
+/* Larger type and uncluttered evidence frames. */
+.award-feature>h2{font-size:clamp(25px,4.25vw,60px)}
+.award-feature .award-copy p{font-size:16px;line-height:1.65}
+.award-feature .award-copy h3{font-size:25px}
+.award-copy .award-feature-metrics strong{font-size:30px}
+.award-supporting{grid-template-columns:1fr}
+.award-supporting .allen-result-image img{height:auto;max-height:none;object-fit:contain}
+.result-blue{display:block;position:relative;background:#17335b;overflow:hidden}
+.result-blue .result-inverted{display:block;width:100%;height:auto;filter:invert(1);mix-blend-mode:screen;background:transparent}
+.result-blue .result-portrait-colour{position:absolute;inset:0;width:100%;height:100%;object-fit:fill;clip-path:inset(49.5% 3% 20.5% 78%);background:transparent}
+.olympiad-photo-single .award-main-photo img{height:300px;width:100%;object-fit:contain;background:#191c17;aspect-ratio:auto}
+.award-visuals .olympiad-merit-list{margin:20px 0 0}
+.award-visuals .olympiad-merit-list li{grid-template-columns:minmax(110px,.8fr) minmax(0,1.2fr);font-size:14px;line-height:1.5;padding:12px 0}
+.iit-document img{background:transparent;padding:0;border-radius:0}
+.iit-letter-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:24px 0}
+.iit-letter-grid .iit-document{width:100%;min-width:0}
+.iit-letter-grid .iit-document img{height:340px;width:100%;object-fit:contain;background:transparent;padding:0}
+@media(min-width:901px){main>section.award-feature{gap:24px 40px}.award-supporting .allen-result-image{max-width:100%}.award-supporting .allen-result-image img{height:auto;max-height:330px}.result-blue .result-portrait-colour{height:100%;max-height:none}.award-feature .award-copy p{font-size:16px;line-height:1.65}.award-feature>h2{font-size:clamp(30px,4.25vw,60px)}}
+@media(max-width:900px){.award-feature>h2{font-size:clamp(16px,5.5vw,44px)}.award-feature .award-copy p{font-size:15px}.award-supporting{grid-template-columns:1fr}.award-supporting .allen-result-image img{height:auto}.result-blue .result-portrait-colour{height:100%}.iit-letter-grid{grid-template-columns:1fr;gap:24px}.iit-letter-grid .iit-document img{height:390px}.olympiad-photo-single .award-main-photo img{height:300px}}
+
+.award-supporting .result-blue .result-inverted{height:auto;max-height:none;background:transparent;object-fit:fill}.award-supporting .result-blue .result-portrait-colour{height:100%;max-height:none;background:transparent;object-fit:fill}
