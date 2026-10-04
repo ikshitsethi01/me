@@ -246,3 +246,6 @@ main>section.prague-feature{padding:48px 7%}.prague-letter-crop{width:100%;aspec
 #writing .writing-list p{margin:0;max-width:none}#writing .writing-list .text-link{margin-top:auto;font-size:14px}
 .yearbook-link{border-bottom:1px solid var(--lime);width:max-content;padding-bottom:4px}
 @media(max-width:700px){.lower-profile .role h3,.lower-profile .credential h3,.lower-profile .writing-list h3{font-size:22px}#writing .writing-list{grid-template-columns:1fr;gap:20px}}
+
+/* Keep the writing heading within mobile side padding. */
+@media(max-width:700px){#writing>h2{white-space:normal}#writing>h2>span{display:block;white-space:nowrap}}
