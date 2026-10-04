@@ -202,3 +202,15 @@ main>section.prague-feature{padding:48px 7%}.prague-letter-crop{width:100%;aspec
 @media(max-width:600px){.prague-letter-crop{aspect-ratio:886/1280;padding:0}.prague-documents .prague-letter-crop img{height:100%;object-fit:contain}}
 
 @media(min-width:601px){.invitation-sheet{background:#fff;padding-bottom:clamp(30px,4.1vw,66px)}.prague-documents>a:nth-child(2)>strong{margin-top:20px;padding:0;background:transparent;color:inherit}}
+/* Frame dimensions come from the column width: always a true square. */
+#allen-award .award-main-photo,#olympiad-feature .award-main-photo{width:100%;margin:0}
+#allen-award .award-main-photo img,#olympiad-feature .award-main-photo img{display:block;width:100%!important;min-width:0;height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:1 / 1!important;object-fit:cover!important;object-position:50% 50%!important}
+#allen-award .award-visuals,#olympiad-feature .award-visuals{align-self:center;width:100%;min-width:0}
+#olympiad-feature .olympiad-photo-single{display:block;width:100%}
+#allen-award .award-feature-metrics strong,#olympiad-feature .award-feature-metrics strong,#olympiad-feature .award-visuals .award-feature-metrics strong{font-size:30px!important;line-height:1.15!important}
+#allen-award .award-feature-metrics,#olympiad-feature .award-feature-metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 20px}
+#allen-award .award-feature-metrics span,#olympiad-feature .award-feature-metrics span{font-size:12px;line-height:1.5}
+.iit-letter-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0!important;padding:0;border:1px solid #20252c44}
+.iit-letter-grid .iit-document{width:100%;min-width:0;margin:0;padding:0}
+.iit-letter-grid .iit-document img{display:block;width:100%;height:auto!important;aspect-ratio:0.707;object-fit:contain!important;margin:0;padding:0!important}
+@media(max-width:900px){#allen-award .award-feature-metrics strong,#olympiad-feature .award-feature-metrics strong,#olympiad-feature .award-visuals .award-feature-metrics strong{font-size:26px!important}.iit-letter-grid{display:flex;overflow-x:auto;gap:0!important}.iit-letter-grid .iit-document{flex:0 0 85%;width:85%}}
