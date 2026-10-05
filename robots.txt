@@ -1,4 +1,5 @@
 User-agent: *
+Disallow: /flashcards
 Allow: /
 
 Sitemap: https://ikshitsethi.in/sitemap.xml
