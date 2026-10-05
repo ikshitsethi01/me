@@ -308,3 +308,10 @@ main>section.annual-feature{grid-template-columns:minmax(0,1fr) minmax(540px,1fr
 .intro .recap-intro{margin-bottom:26px}
 .intro .recap-context{margin-top:26px}
 @media(max-width:700px){.recap-tables{grid-template-columns:1fr;gap:26px}.profile-recap-table{font-size:13px}.profile-recap-table th,.profile-recap-table td{padding:8px}.intro .recap-group h3{font-size:18px}}
+
+/* Merit record replaces the photo in the existing right column. */
+#olympiad-feature .award-visuals{align-self:start}
+#olympiad-feature [hidden]{display:none!important}
+.olympiad-merit-banner{margin:0;width:100%;aspect-ratio:210/297;display:flex;align-items:center;justify-content:center;background:transparent}
+#olympiad-feature .olympiad-merit-banner img{display:block;width:100%;height:100%;max-height:none;object-fit:contain;border:0;padding:0}
+.olympiad-record-toggle{display:inline-block;margin-top:22px;background:transparent;color:#c5ef86;border:0;border-bottom:1px solid currentColor;padding:0 0 7px;font:inherit;font-size:14px;cursor:pointer;text-align:left}
