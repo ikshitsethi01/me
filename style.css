@@ -289,3 +289,22 @@ main>section.annual-feature{grid-template-columns:minmax(0,1fr) minmax(540px,1fr
 /* Academics recap shares the career disclosure hierarchy beside LinkedIn. */
 .intro-actions{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:24px;align-items:start;margin-top:24px}.intro-actions>.text-link{margin-top:20px;white-space:nowrap}.intro-actions .academics-recap{min-width:0;margin:0}.academics-recap summary{font-size:18px;padding:20px 0}.academics-recap .plus{margin-left:auto}.academics-recap .role-timeline{margin:8px 0 12px 6px;padding-left:24px}.academics-recap .role{padding-bottom:20px}.academics-recap .role:last-child{padding-bottom:0}.academics-recap .role h3{font-size:17px;line-height:1.35;font-weight:600;letter-spacing:-.02em}.intro .academics-recap .role p{font-size:14px;line-height:1.7;margin:8px 0 0;color:var(--muted)}.academics-recap .role::before{left:-30px}
 @media(max-width:600px){.intro-actions{grid-template-columns:1fr;gap:22px}.intro-actions>.text-link{width:max-content;margin-top:0}}
+
+/* Full profile recap replaces the introduction on request. */
+#about .intro-actions{display:flex;gap:24px;flex-wrap:wrap;align-items:center;margin-top:24px}
+#about .intro-actions>.text-link{margin:0;white-space:normal}
+.profile-summary-toggle{font:inherit;font-size:14px;color:var(--fg);background:transparent;border:0;border-bottom:1px solid var(--lime);padding:0 0 7px;cursor:pointer}
+#about [hidden]{display:none!important}
+#about.is-summary-open{grid-template-columns:1fr;gap:28px}
+.recap-tables{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:36px}
+.recap-group{min-width:0}
+.intro .recap-group h3{font-size:20px;font-weight:600;letter-spacing:-.02em;line-height:1.3;margin:0 0 16px}
+.recap-other .recap-group+.recap-group{margin-top:28px}
+.profile-recap-table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.55;table-layout:fixed}
+.profile-recap-table th,.profile-recap-table td{padding:9px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.profile-recap-table thead th{font-size:12px;color:var(--muted)}
+.profile-recap-table tbody th{font-weight:500}
+.intro .recap-intro,.intro .recap-context{font-size:16px;line-height:1.8}
+.intro .recap-intro{margin-bottom:26px}
+.intro .recap-context{margin-top:26px}
+@media(max-width:700px){.recap-tables{grid-template-columns:1fr;gap:26px}.profile-recap-table{font-size:13px}.profile-recap-table th,.profile-recap-table td{padding:8px}.intro .recap-group h3{font-size:18px}}
