@@ -285,3 +285,7 @@ main>section.annual-feature{grid-template-columns:minmax(0,1fr) minmax(540px,1fr
 
 /* Keep browser-injected playback toolbars out of the ceremony hero. */
 #academic-validation .PlayBackRatePanelYPSC{display:none!important}
+
+/* Academics recap shares the career disclosure hierarchy beside LinkedIn. */
+.intro-actions{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:24px;align-items:start;margin-top:24px}.intro-actions>.text-link{margin-top:20px;white-space:nowrap}.intro-actions .academics-recap{min-width:0;margin:0}.academics-recap summary{font-size:18px;padding:20px 0}.academics-recap .plus{margin-left:auto}.academics-recap .role-timeline{margin:8px 0 12px 6px;padding-left:24px}.academics-recap .role{padding-bottom:20px}.academics-recap .role:last-child{padding-bottom:0}.academics-recap .role h3{font-size:17px;line-height:1.35;font-weight:600;letter-spacing:-.02em}.intro .academics-recap .role p{font-size:14px;line-height:1.7;margin:8px 0 0;color:var(--muted)}.academics-recap .role::before{left:-30px}
+@media(max-width:600px){.intro-actions{grid-template-columns:1fr;gap:22px}.intro-actions>.text-link{width:max-content;margin-top:0}}
