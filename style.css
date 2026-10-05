@@ -324,3 +324,21 @@ main>section.annual-feature{grid-template-columns:minmax(0,1fr) minmax(540px,1fr
 #olympiad-feature .olympiad-record-actions{display:block;clear:both;margin-top:22px}
 #olympiad-feature .olympiad-record-actions .olympiad-record-toggle{margin-top:0}
 @media(max-width:900px){#olympiad-feature .award-visuals{width:100%;min-width:0}#olympiad-feature .olympiad-merit-banner img{aspect-ratio:210 / 297!important;height:auto!important}}
+
+/* Mobile hero order: headline, primary image, then the text box. */
+@media(max-width:900px){
+ #allen-award.award-feature,#olympiad-feature.award-feature{grid-template-columns:minmax(0,1fr)!important}
+ #allen-award>h2,#olympiad-feature>h2{grid-column:1!important;grid-row:1!important}
+ #allen-award>.award-visuals,#olympiad-feature>.award-visuals{grid-column:1!important;grid-row:2!important}
+ #allen-award>.award-copy,#olympiad-feature>.award-copy{grid-column:1!important;grid-row:3!important}
+}
+@media(max-width:600px){
+ #prague.prague-feature{display:flex;flex-direction:column;align-items:stretch}
+ #prague>.prague-copy{display:contents}
+ #prague .prague-copy>h2{order:0;margin-bottom:0}
+ #prague>.prague-photo{order:1}
+ #prague .prague-copy>:not(h2){order:2}
+ #prague>.prague-documents{order:3}
+ #about .intro-actions{display:flex!important;flex-direction:column;align-items:flex-start;gap:18px}
+ #about #profile-summary-toggle{display:inline-flex!important;align-items:center;min-height:44px;max-width:100%;white-space:normal;visibility:visible;opacity:1}
+}
