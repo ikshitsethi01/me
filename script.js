@@ -36,5 +36,3 @@ if(gallery){
  const frame=t=>{const dt=last?Math.min(t-last,50):0;last=t;if(!paused&&!hover&&!drag&&t>until&&!rail.matches(':focus-within')&&!document.hidden&&!matchMedia('(prefers-reduced-motion: reduce)').matches){fraction+=dt*.075;if(fraction>=1){const step=Math.floor(fraction);fraction-=step;rail.scrollLeft+=step;normalize();}}requestAnimationFrame(frame);};requestAnimationFrame(frame);
 })();
 
-
-(()=>{const section=document.getElementById('olympiad-feature');if(!section)return;const button=section.querySelector('.olympiad-record-toggle'),banner=section.querySelector('.olympiad-merit-banner'),photo=section.querySelector('.olympiad-photo-single');if(!button||!banner||!photo)return;button.addEventListener('click',()=>{const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));banner.hidden=!open;photo.hidden=open;button.textContent=open?'Return to Award Ceremony Photo':'View the Full Olympiad Merit Record';});})();

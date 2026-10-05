@@ -315,3 +315,12 @@ main>section.annual-feature{grid-template-columns:minmax(0,1fr) minmax(540px,1fr
 .olympiad-merit-banner{margin:0;width:100%;aspect-ratio:210/297;display:flex;align-items:center;justify-content:center;background:transparent}
 #olympiad-feature .olympiad-merit-banner img{display:block;width:100%;height:100%;max-height:none;object-fit:contain;border:0;padding:0}
 .olympiad-record-toggle{display:inline-block;margin-top:22px;background:transparent;color:#c5ef86;border:0;border-bottom:1px solid currentColor;padding:0 0 7px;font:inherit;font-size:14px;cursor:pointer;text-align:left}
+
+/* Explicit image swap and A4 proportions at every viewport. */
+#olympiad-feature .olympiad-merit-banner{display:none!important;margin:0;width:100%;aspect-ratio:auto}
+#olympiad-feature.merit-record-open .olympiad-photo-single{display:none!important}
+#olympiad-feature.merit-record-open .olympiad-merit-banner{display:block!important}
+#olympiad-feature .olympiad-merit-banner img{display:block!important;width:100%!important;height:auto!important;aspect-ratio:210 / 297!important;max-height:none!important;min-height:0!important;object-fit:contain!important;object-position:center!important;padding:0!important;border:0!important;background:transparent!important}
+#olympiad-feature .olympiad-record-actions{display:block;clear:both;margin-top:22px}
+#olympiad-feature .olympiad-record-actions .olympiad-record-toggle{margin-top:0}
+@media(max-width:900px){#olympiad-feature .award-visuals{width:100%;min-width:0}#olympiad-feature .olympiad-merit-banner img{aspect-ratio:210 / 297!important;height:auto!important}}
