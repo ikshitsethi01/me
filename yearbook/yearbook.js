@@ -1,3 +1,11 @@
+/*!
+Copyright (c) 2026 Ikshit Sethi. All rights reserved.
+Original website code, design, writing and original media: Ikshit Sethi.
+No licence to copy, republish, redistribute, sell or adapt original material is granted
+without prior written permission, except uses permitted by applicable law.
+Third-party libraries, logos, certificates and media retain their respective owners' rights.
+Official source: https://ikshitsethi.in/ | Ownership marker: IKSHIT-SETHI-PORTFOLIO-2026
+*/
 (()=>{
  const book=document.getElementById('book'),label=document.getElementById('zoom-label'),header=document.querySelector('.reader-header');let fit=true,scale=1;
  function resize(){const h=(window.visualViewport?.height||innerHeight)-header.getBoundingClientRect().height-32;if(fit)scale=Math.min((book.clientWidth-(innerWidth<700?32:96))/595,h/842);scale=Math.max(.15,scale);document.documentElement.style.setProperty('--page-scale',scale);document.documentElement.style.setProperty('--header-height',header.getBoundingClientRect().height+'px');label.textContent=fit?'Fit to page':Math.round(scale*100)+'%';}
