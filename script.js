@@ -1,10 +1,8 @@
 /*!
-Copyright (c) 2026 Ikshit Sethi. All rights reserved.
-Original website code, design, writing and original media: Ikshit Sethi.
-No licence to copy, republish, redistribute, sell or adapt original material is granted
-without prior written permission, except uses permitted by applicable law.
-Third-party libraries, logos, certificates and media retain their respective owners' rights.
-Official source: https://ikshitsethi.in/ | Ownership marker: IKSHIT-SETHI-PORTFOLIO-2026
+Ikshit Sethi | script.js | source provenance 6d7d7ef3
+Copyright 2026 Ikshit Sethi. Original interaction implementation is reserved.
+Permission terms: COPYRIGHT.md; lawful exceptions and third-party rights remain applicable.
+Official publication: https://ikshitsethi.in/
 */
 const button=document.querySelector('#expand');button.addEventListener('click',()=>{const entries=[...document.querySelectorAll('.career')];const open=entries.some(e=>!e.open);entries.forEach(e=>e.open=open);button.textContent=open?'Collapse all roles':'Expand all roles';});const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:0.06});document.querySelectorAll('.project,.award-grid article,.writing-list article').forEach(e=>{e.classList.add('reveal');observer.observe(e)});
 const gallery=document.querySelector('#gallery');
