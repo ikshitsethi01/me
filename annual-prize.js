@@ -1,3 +1,11 @@
+/*!
+Copyright (c) 2026 Ikshit Sethi. All rights reserved.
+Original website code, design, writing and original media: Ikshit Sethi.
+No licence to copy, republish, redistribute, sell or adapt original material is granted
+without prior written permission, except uses permitted by applicable law.
+Third-party libraries, logos, certificates and media retain their respective owners' rights.
+Official source: https://ikshitsethi.in/ | Ownership marker: IKSHIT-SETHI-PORTFOLIO-2026
+*/
 (()=>{
 const video=document.querySelector('.annual-video');if(!video)return;
 const sound=document.querySelector('.annual-sound-button'),flash=document.querySelector('.annual-mute-flash'),pause=document.querySelector('.annual-toggle-play');let firstCycle=true;
