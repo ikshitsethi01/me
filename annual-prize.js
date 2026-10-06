@@ -1,10 +1,8 @@
 /*!
-Copyright (c) 2026 Ikshit Sethi. All rights reserved.
-Original website code, design, writing and original media: Ikshit Sethi.
-No licence to copy, republish, redistribute, sell or adapt original material is granted
-without prior written permission, except uses permitted by applicable law.
-Third-party libraries, logos, certificates and media retain their respective owners' rights.
-Official source: https://ikshitsethi.in/ | Ownership marker: IKSHIT-SETHI-PORTFOLIO-2026
+Ikshit Sethi | annual-prize.js | source provenance cdd2b918
+Copyright 2026 Ikshit Sethi. Original interaction implementation is reserved.
+Permission terms: COPYRIGHT.md; lawful exceptions and third-party rights remain applicable.
+Official publication: https://ikshitsethi.in/
 */
 (()=>{
 const video=document.querySelector('.annual-video');if(!video)return;
